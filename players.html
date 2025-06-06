@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="scriptpl.js"></script>
+  </head>
+  <body onload="init()" class="bodypl">
+      <div id="headerpl">
+	    <br><br><br><br>
+        <span style="font-size: 50px;">PLAYERS</span>
+		<br>
+		<span style="font-size: 50px;">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span>
+		<br>
+		<a style="text-decoration: none;" href = "index.html">BACK</a><br>	
+	  </div>
+	  <br>
+      <div class="container" style="margin-left: 120px;">      
+		<div id='sidepanel' style="background-color: #acafae;">
+		    <input type="text" id="input" placeholder="FILTER" style="max-height: 14px;"></input>
+		    <br><br>
+		    <input type="button" onclick="filter1()" id="ewee" value="FILTER BY USERNAME"></input>
+		    <input type="button" onclick="filter2()" id="ewee" value="FILTER BY WINS"></input>
+		    <input type="button" onclick="filter3()" id="ewee" value="FILTER BY PLAYTIME"></input>
+		    <input type="button" onclick="filter4()" id="ewee" value="FILTER BY PILOT"></input>
+        </div>
+		
+        <div id='mainpanel' class="scrollmenupl">
+        </div>
+      </div>
+
+      <div id='foot'>
+        <h3> Credits go to @brandonl385@nycstudents.net for Java and HTML work and @ericc361@nycstudents.net for the Database </h3>
+      </div>
+    
+  </body>
+</html>
